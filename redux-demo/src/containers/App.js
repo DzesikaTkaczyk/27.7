@@ -1,7 +1,7 @@
 import React from 'react';
-import './App.css';
-import CommentsListContainer from "./CommentsListContainer";
-import DevTools from './DevTools';
+import '../css/App.css';
+import CommentsListContainer from "../components/CommentsListContainer";
+import DevTools from '../DevTools';
 
 const App = () => {
   return (

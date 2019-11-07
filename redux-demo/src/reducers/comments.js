@@ -4,7 +4,7 @@ import {
 	REMOVE_COMMENT,
 	THUMB_UP_COMMENT,
 	THUMB_DOWN_COMMENT
-} from './actions'
+} from '../components/actions'
 
 export default function coments(state = [], action) {
 	switch (action.type) {
